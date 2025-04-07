@@ -1,2 +1,10 @@
 class Cuadrado:
-    pass
+    def self(self,lado):
+        self.lado = lado
+        
+    def areacalc(self):
+        return self.lado ** 2
+    
+    
+
+        
